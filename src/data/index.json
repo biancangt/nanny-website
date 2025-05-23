@@ -1,0 +1,73 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "title": "Montessori Method",
+      "description": "Experienced in guiding child development using Montessori principles focused on independence and respect."
+    },
+    {
+      "id": "2",
+      "title": "Infant and Toddler Care",
+      "description": "Skilled in nurturing and caring for children from newborns to toddlers with a focus on safety and development."
+    },
+    {
+      "id": "3",
+      "title": "Special Needs Care",
+      "description": "Compassionate experience working with children with diverse abilities, adapting care to individual needs."
+    },
+    
+    {
+      "id": "4",
+      "title": "Fluent in Portuguese",
+      "description": "Native-level fluency in Portuguese; can support bilingual language development."
+    },
+    {
+      "id": "5",
+      "title": "Strong Swimmer",
+      "description": "Confident swimmer; able to supervise water activities and ensure safety."
+    },
+    {
+      "id": "6",
+      "title": "Clean Driving Record",
+      "description": "Reliable transportation with a clean driving record for school runs and outings."
+    },
+    {
+      "id": "7",
+      "title": "Weaning",
+      "description": "Supportive in weaning process with a gentle and child-led approach to solid foods."
+    },
+    {
+      "id": "8",
+      "title": "References",
+      "description": "References available upon request, ready to provide professional and personal contacts."
+    }
+  ],
+
+
+"certification": [
+  {
+    "id": "1",
+    "src": "./img/education-1.png",
+    "title": "CPR and First Aid Certification",
+    "school": "Pro Trainings",
+    "description": "Certified in Infant, Child, and Adult CPR and First Aid through Pro Trainings, gaining essential life-saving skills and emergency response knowledge."
+  },
+  {
+    "id": "2",
+    "src": "./img/education-2.png",
+    "title": "Screen-Free Play and Learning",
+    "school": "Au Pair Care",
+    "description": "Completed a course on Screen-Free Play and Learning focusing on activities for children that promote creativity and interaction without digital screens."
+  },
+  {
+    "id": "3",
+    "src": "./img/education-3.png",
+    "title": "Bachelor’s in Computer Science",
+    "school": "Anhembi Morumbi University | Expected graduation: Dec 2025",
+    "description": "Pursuing a Bachelor's degree in Computer Science at Anhembi Morumbi University, with graduation planned for December 2025."
+  }
+]
+
+}
+    
+  
