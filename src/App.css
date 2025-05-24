@@ -144,7 +144,7 @@ h2 {
   display: flex;
   align-items: flex-start;
 }
-/* Portfolio, Certification  */
+/*  Certification  */
 .sub--title {
   color: var(--heading-color);
   font-size: 16px;
@@ -333,78 +333,6 @@ h2 {
 
 /* About Us Ends */
 
-/* My Portfolio Starts */
-.portfolio--section {
-  display: flex;
-  padding: 112px 85px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 80px;
-}
-.portfolio--container-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.portfolio--container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 21.3px;
-}
-.portfolio--section--container {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  gap: 42.6px;
-  width: 100%;
-}
-.portfolio--section--img {
-  border-radius: 8px;
-  width: 100%;
-}
-.portfolio--section--img > img {
-  width: 100%;
-}
-.portfolio--section--card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex: 1 0 0;
-  background: #fff;
-  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-.portfolio--section--card--content {
-  display: flex;
-  padding: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-}
-.portfolio--section--title {
-  color: var(--heading-color);
-  margin-bottom: 1rem;
-}
-.portfolio--link {
-  text-decoration: none;
-  display: flex;
-  gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
-  font-weight: 600;
-  align-self: flex-start;
-  
-}
-.portfolio--section--card:hover path {
-  stroke: #006b6a;
-}
-/* Portfolio Ends */
 
 /* Certification */
 .certification--section {
@@ -413,12 +341,14 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  
 }
 .certification--container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding-bottom: 40px;
 }
 .certification--container {
   display: flex;
@@ -456,9 +386,12 @@ h2 {
   flex: 1 0 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+    margin-bottom: 40px; /* para criar espaço */
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  
+  
 }
 .certification--section--card--content {
   display: flex;
@@ -488,9 +421,7 @@ h2 {
   padding-bottom: 10.6px;
   font-weight: 600;
 }
-.certification--section--card:hover path {
-  stroke: #006b6a;
-}
+
 
 /* Certification Ends */
 
@@ -542,7 +473,6 @@ html, body {
 .skills--section--container,
 .certification--section--container,
 .certification--container-box,
-.portfolio--container-box,
 .about--section,
 .footer--content--container,
 .footer--link--container,
@@ -636,8 +566,6 @@ img {
   .certification--section--card,
   .about--section,
   .certification--section--school,
-  .portfolio--section--container,
-  .portfolio--container-box,
   .footer--link--container,
   .footer--items > ul,
   .footer--content--container {
@@ -650,19 +578,15 @@ img {
  
   
   .skills--section,
-  .portfolio--container,
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
   }
 
-  .portfolio--container-box {
-    gap: 30px;
-  }
+ 
 
   .skills--section 
   .certification--section,
-  .contact--section,
   .footer--container {
     gap: 20px;
     padding-top: 40px;
@@ -845,35 +769,7 @@ img {
     height: 60px !important;
   }
  
-  .portfolio--container-box {
-    grid-template-columns: 1fr !important;
-    display: flex !important;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .portfolio--container-box > div {
-    flex-direction: row !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 16px !important;
-  }
-
-  .portfolio--container-box img {
-    flex-shrink: 0;
-    width: 60px !important;
-    height: 60px !important;
-  }
-
-  .portfolio--container-box > div .portfolio--section--title {
-    flex-direction: initial !important;
-    display: block !important;
-    width: auto !important;
-    margin: 0 !important;
-    align-self: auto !important;
-  }
 }
-
 /* Cellphones (<=480px) */
 @media (max-width: 480px) {
   body {
@@ -920,18 +816,13 @@ img {
   }
 
   .skills--section,
-  .portfolio--section,
   .about--section,
   .certification--section,
   .contact--section {
     padding: 20px 10px !important;
   }
 
-  .portfolio--container-box > div {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    text-align: left !important;
-  }
+ 
 
   .footer--items ul,
   .footer--social--icon ul {
@@ -970,10 +861,10 @@ img {
   }
 
   .hero--section--img {
-    display: block !important;          /* show image container */
-    order: -1 !important;               /* move image container above content */
+    display: block !important;         
+    order: -1 !important;              
     width: 100%;
-    margin-bottom: 20px;                /* space below image */
+    margin-bottom: 20px;                
   }
 
   .hero--img-desktop {
@@ -1018,8 +909,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-style: normal;
-  background-color: #fdf1f5; /* rosa super claro */
-  color: #4a4a4a; /* escuro para legibilidade */
+  background-color: #fdf1f5; 
+  color: #4a4a4a; 
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -1105,21 +996,6 @@ h3 {
 .btn-primary:hover {
   color: #d46a92;
   background-color: #fdf1f5;
-}
-
-.btn-github {
-  color: #fff;
-  background-color: #f48fb1;
-  border: 1px solid #f48fb1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 1px 2px 0 rgba(167, 174, 190, 0.95);
-  gap: 16px;
-}
-.btn-github:hover {
-  color: #f48fb1;
-  background-color: #fff;
 }
 
 /* Hero Section */
@@ -1213,47 +1089,21 @@ h3 {
   color: #4a4a4a;
 }
 
-/* Portfolio Section */
-.portfolio--section {
-  background-color: #fdf1f5;
-  color: #4a4a4a;
-}
-.portfolio--section--card {
-  background: #fae9ef;
-  transition: border-bottom 0.3s ease;
-  color: #4a4a4a;
-}
-.portfolio--section--card:hover {
-  border-bottom: 4px solid #f48fb1;
-}
-.portfolio--section--img {
-  background: #f3dce3;
-  box-shadow: 0 0 16px rgba(180, 180, 190, 0.5);
-}
-.portfolio--section--title {
-  color: #d46a92;
-}
-.portfolio--link {
-  border-bottom: 1.33px solid #f48fb1;
-  color: #d46a92;
-}
-.portfolio--link:hover {
-  color: #4a4a4a;
-}
+
 
 /* Certification Section */
 .certification--section {
   background-color: #fdf1f5;
   color: #4a4a4a;
+  padding-bottom: 60px;
 }
 .certification--section--card {
   background: #fae9ef;
   transition: border-bottom 0.3s ease;
   color: #4a4a4a;
+  box-shadow: 0 4px 16px rgba(180, 180, 190, 0.5); 
 }
-.certification--section--card:hover {
-  border-bottom: 4px solid #f48fb1;
-}
+
 .certification--section--img {
   background: #f3dce3;
   box-shadow: 0 0 16px rgba(180, 180, 190, 0.5);
@@ -1268,9 +1118,7 @@ h3 {
   border-bottom: 1.33px solid #f48fb1;
   color: #d46a92;
 }
-.certification--link:hover {
-  color: #4a4a4a;
-}
+
 
 /* Footer */
 .footer--container {
