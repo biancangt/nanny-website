@@ -9,10 +9,7 @@ export default function HeroSection() {
             <br />
           </h1>
           <p className="hero--section-description">
-            Caring and experienced nanny who loves supporting families and helping children grow.
-            Skilled with infants to school-aged kids, and always bringing patience and fun.
-            Focused on creating a safe, loving, and engaging environment.
-            Excited to become part of a wonderful family and make a real difference.
+          Experienced Nanny/Educator with over 9 years specializing in infant and toddler care, adept at delivering attentive, developmentally appropriate care within dynamic, fully staffed households, including ROTA scheduling. Expert in managing daily routines, safety protocols, and personalized developmental activities rooted in Montessori principles. Proven ability to collaborate effectively with caregiving teams, provide clear, consistent communication, and update parents regularly on children’s progress, mood, and needs. Skilled in supporting family travel logistics and maintaining seamless care during domestic and international trips. Known for patience, empathy, discretion, and flexibility, including comfort with pets and extended shifts. Excellent references available upon request.
             <br /> You can find more details in my resume below!
           </p>
         </div>
