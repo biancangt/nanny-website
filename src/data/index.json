@@ -54,17 +54,17 @@
   },
   {
     "id": "2",
-    "src": "./img/education-2.png",
-    "title": "Screen-Free Play and Learning",
-    "school": "Au Pair Care",
-    "description": "Completed a course on Screen-Free Play and Learning focusing on activities for children that promote creativity and interaction without digital screens."
+    "src": "./img/education-II.png",
+    "title": "Montessori Method",
+    "school": "E-Cursos",
+    "description": "Completed a course on the Montessori Method, emphasizing child-centered learning through hands-on activities that foster independence, creativity, and critical thinking in early childhood development."
   },
   {
     "id": "3",
     "src": "./img/education-3.png",
     "title": "Bachelor’s in Computer Science",
-    "school": "Anhembi Morumbi University | Expected graduation: Dec 2025",
-    "description": "Pursuing a Bachelor's degree in Computer Science at Anhembi Morumbi University, with graduation planned for December 2025."
+    "school": "Anhembi Morumbi University | 2025",
+    "description": "Bachelor's degree in Computer Science at Anhembi Morumbi University"
   }
 ]
 
